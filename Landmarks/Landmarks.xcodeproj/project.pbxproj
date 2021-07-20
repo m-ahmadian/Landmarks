@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B93994E26A64AA80014207B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B93994D26A64AA80014207B /* MapView.swift */; };
 		2BBCC16A26A5F2FB0047400A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCC16926A5F2FB0047400A /* SwiftUIView.swift */; };
 		2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */; };
 		2BE15A2326A5395D00A741B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15A2226A5395D00A741B6 /* ContentView.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B93994D26A64AA80014207B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2BBCC16926A5F2FB0047400A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		2BE15A1D26A5395D00A741B6 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */,
 				2BE15A2226A5395D00A741B6 /* ContentView.swift */,
 				2BBCC16926A5F2FB0047400A /* SwiftUIView.swift */,
+				2B93994D26A64AA80014207B /* MapView.swift */,
 				2BE15A2426A5395E00A741B6 /* Assets.xcassets */,
 				2BE15A2926A5395E00A741B6 /* Info.plist */,
 				2BE15A2626A5395E00A741B6 /* Preview Content */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE15A2326A5395D00A741B6 /* ContentView.swift in Sources */,
+				2B93994E26A64AA80014207B /* MapView.swift in Sources */,
 				2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */,
 				2BBCC16A26A5F2FB0047400A /* SwiftUIView.swift in Sources */,
 			);
@@ -423,6 +427,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 26KXCH55VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -444,6 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_TEAM = 26KXCH55VA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
