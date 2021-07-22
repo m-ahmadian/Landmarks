@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2B01DB8F26A7A9B700DC06DF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B01DB8E26A7A9B700DC06DF /* landmarkData.json */; };
+		2B8F708326A8FBDF003D013F /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F708226A8FBDF003D013F /* LandmarkList.swift */; };
 		2B93994E26A64AA80014207B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B93994D26A64AA80014207B /* MapView.swift */; };
 		2BBCC16A26A5F2FB0047400A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCC16926A5F2FB0047400A /* CircleImage.swift */; };
 		2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		2B01DB8E26A7A9B700DC06DF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		2B8F708226A8FBDF003D013F /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		2B93994D26A64AA80014207B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2BBCC16926A5F2FB0047400A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2BE15A1D26A5395D00A741B6 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				2BBCC16926A5F2FB0047400A /* CircleImage.swift */,
 				2B93994D26A64AA80014207B /* MapView.swift */,
 				2BF4399826A7B69400D3CFE8 /* LandmarkRow.swift */,
+				2B8F708226A8FBDF003D013F /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				2BE15A2326A5395D00A741B6 /* ContentView.swift in Sources */,
 				2B93994E26A64AA80014207B /* MapView.swift in Sources */,
 				2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */,
+				2B8F708326A8FBDF003D013F /* LandmarkList.swift in Sources */,
 				2BBCC16A26A5F2FB0047400A /* CircleImage.swift in Sources */,
 				2BF4399226A7AA2200D3CFE8 /* Landmark.swift in Sources */,
 				2BF4399926A7B69400D3CFE8 /* LandmarkRow.swift in Sources */,
