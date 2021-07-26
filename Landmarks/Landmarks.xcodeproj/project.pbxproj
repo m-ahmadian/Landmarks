@@ -12,6 +12,7 @@
 		2B8F708526A90278003D013F /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8F708426A90278003D013F /* LandmarkDetail.swift */; };
 		2B93994E26A64AA80014207B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B93994D26A64AA80014207B /* MapView.swift */; };
 		2BBCC16A26A5F2FB0047400A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCC16926A5F2FB0047400A /* CircleImage.swift */; };
+		2BDD999726AE3B0D00162A42 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDD999626AE3B0D00162A42 /* FavoriteButton.swift */; };
 		2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */; };
 		2BE15A2326A5395D00A741B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE15A2226A5395D00A741B6 /* ContentView.swift */; };
 		2BE15A2526A5395E00A741B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE15A2426A5395E00A741B6 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		2B8F708426A90278003D013F /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		2B93994D26A64AA80014207B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2BBCC16926A5F2FB0047400A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		2BDD999626AE3B0D00162A42 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		2BE15A1D26A5395D00A741B6 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE15A2026A5395D00A741B6 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		2BE15A2226A5395D00A741B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B9C7AC626AE48A4006AF632 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2BBCC16926A5F2FB0047400A /* CircleImage.swift */,
+				2B93994D26A64AA80014207B /* MapView.swift */,
+				2BDD999626AE3B0D00162A42 /* FavoriteButton.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		2B9C7AC726AE48DA006AF632 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF4399826A7B69400D3CFE8 /* LandmarkRow.swift */,
+				2B8F708226A8FBDF003D013F /* LandmarkList.swift */,
+				2B8F708426A90278003D013F /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		2BE15A1426A5395D00A741B6 = {
 			isa = PBXGroup;
 			children = (
@@ -152,11 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				2BE15A2226A5395D00A741B6 /* ContentView.swift */,
-				2BBCC16926A5F2FB0047400A /* CircleImage.swift */,
-				2B93994D26A64AA80014207B /* MapView.swift */,
-				2BF4399826A7B69400D3CFE8 /* LandmarkRow.swift */,
-				2B8F708226A8FBDF003D013F /* LandmarkList.swift */,
-				2B8F708426A90278003D013F /* LandmarkDetail.swift */,
+				2B9C7AC626AE48A4006AF632 /* Helper */,
+				2B9C7AC726AE48DA006AF632 /* Landmarks */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -311,6 +330,7 @@
 				2BE15A2326A5395D00A741B6 /* ContentView.swift in Sources */,
 				2B93994E26A64AA80014207B /* MapView.swift in Sources */,
 				2BE15A2126A5395D00A741B6 /* LandmarksApp.swift in Sources */,
+				2BDD999726AE3B0D00162A42 /* FavoriteButton.swift in Sources */,
 				2B8F708326A8FBDF003D013F /* LandmarkList.swift in Sources */,
 				2B8F708526A90278003D013F /* LandmarkDetail.swift in Sources */,
 				2BBCC16A26A5F2FB0047400A /* CircleImage.swift in Sources */,
