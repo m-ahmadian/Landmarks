@@ -12,12 +12,13 @@ struct Hike: Codable, Hashable, Identifiable {
     var name: String
     var distance: Double
     var difficulty: Int
-    var observations: Observation
+    var observations: [Observation]
     
     static var formatter = LengthFormatter()
     
     var distanceText: String {
-        return Hike.formatter.string(fromValue: distance, unit: .kilometer)
+        return Hike.formatter
+            .string(fromValue: distance, unit: .kilometer)
     }
     
     
